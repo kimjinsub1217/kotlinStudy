@@ -38,15 +38,15 @@ fun main(args: Array<String>): Unit {
     var num4: Long = -123_4567_8900_0000
     println(num4)
 
-    num3 =num1 +num2
+    num3 = num1 + num2
     println(num3)
 
     num4 = num3 + 10L
     println(num4)
 
-    var num5:Float=77.7f
-    val num6: Double=77.7777
-    num5 = num5+num6.toFloat()
+    var num5: Float = 77.7f
+    val num6: Double = 77.7777
+    num5 = num5 + num6.toFloat()
     println(num5)
 
 }

@@ -10,11 +10,11 @@ num1 =9 num2 =2 Int타입끼리 산술 연산이 되어 Int타입 결과값이 �
 이걸 해소시켜주기 위해 toDouble()로 Double타입으로 변환하여 연산하도록 하였다.
  */
 
-fun main(args:Array<String>):Unit{
-    val num1:Int = 1+2+2*3
-    val num2:Int = 83%9
-    val num3:Double = 12/2+1.11
-    val num4:Double = num1.toDouble()/num2+11.1//9/2+11.1 -> 4.5+11.1 -> 15.6
+fun main(args: Array<String>): Unit {
+    val num1: Int = 1 + 2 + 2 * 3
+    val num2: Int = 83 % 9
+    val num3: Double = 12 / 2 + 1.11
+    val num4: Double = num1.toDouble() / num2 + 11.1//9/2+11.1 -> 4.5+11.1 -> 15.6
 
     println(num1)
     println(num2)

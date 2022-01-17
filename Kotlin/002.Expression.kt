@@ -8,6 +8,6 @@ package com.example.kotlinstudy.Kotlin
  */
 
 
-fun main(args:Array<String>):Unit{
-    println(10+20*3)
+fun main(args: Array<String>): Unit {
+    println(10 + 20 * 3)
 }
